@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+		http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.scijava</groupId>
+		<artifactId>pom-scijava</artifactId>
+		<version>14.0.0</version>
+		<relativePath />
+	</parent>
+
+	<groupId>edu.uq.qbi</groupId>
+	<artifactId>Subcellular_Colocalization</artifactId>
+	<version>0.1.0</version>
+
+	<name>Subcellular_Colocalization</name>
+	<description>An ImageJ plugin to process channel colocalization of subcellular particles.</description>
+	<url>http://github.com/QBI-Software/</url>
+	<inceptionYear>2017</inceptionYear>
+	<organization>
+		<name>QBI</name>
+		<url>http://qbi.uq.edu.au/</url>
+	</organization>
+	<licenses>
+		<license>
+			<name>Simplified BSD License</name>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>lizcw</id>
+			<name>Liz Cooper-Williams</name>
+			<url>https://github.com/lizcw</url>
+			<roles>
+				<role>lead</role>
+				<role>developer</role>
+				<role>debugger</role>
+				<role>reviewer</role>
+				<role>support</role>
+				<role>maintainer</role>
+			</roles>
+		</developer>
+	</developers>
+	<contributors>
+		<contributor>
+			<name>Johannes Schindelin</name>
+			<url>http://imagej.net/User:Schindelin</url>
+			<roles><role>founder</role></roles>
+			<properties><id>dscho</id></properties>
+		</contributor>
+		<contributor>
+			<name>Olivier Burri</name>
+			<url>http://imagej.net/User:Oburri</url>
+			<properties><id>lacan</id></properties>
+		</contributor>
+		<contributor>
+			<name>Mark Hiner</name>
+			<url>http://imagej.net/User:Hinerm</url>
+			<properties><id>hinerm</id></properties>
+		</contributor>
+		<contributor>
+			<name>Jules Maselbas</name>
+		</contributor>
+		<contributor>
+			<name>Kota Miura</name>
+			<url>http://imagej.net/User:Miura</url>
+			<properties><id>cmci</id></properties>
+		</contributor>
+		<contributor>
+			<name>Yili Zhao</name>
+			<url>http://imagej.net/User:Panovr</url>
+			<properties><id>panovr</id></properties>
+		</contributor>
+	</contributors>
+	<mailingLists>
+		<mailingList>
+			<name>ImageJ Forum</name>
+			<archive>http://forum.imagej.net/</archive>
+		</mailingList>
+	</mailingLists>
+
+	<scm>
+		<connection>scm:git:git://github.com/QBI-Software/ImageJ_plugins/subcellular-colocalization-plugin</connection>
+		<developerConnection>scm:git:git@github.com:QBI-Software/ImageJ_plugins/subcellular-colocalization-plugin</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/QBI-Software/ImageJ_plugins/subcellular-colocalization-plugin</url>
+	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/QBI-Software/ImageJ_plugins/subcellular-colocalization-plugin/issues</url>
+	</issueManagement>
+	<ciManagement>
+		<system>None</system>
+	</ciManagement>
+
+	<properties>
+		<package-name>edu.uq.qbi.imagej</package-name>
+		<main-class>edu.uq.qbi.imagej.Subcellular_Colocalization</main-class>
+		<license.licenseName>apache-2.0</license.licenseName>
+		<license.copyrightOwners>QBI Software, The University of Queensland</license.copyrightOwners>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>ij</artifactId>
+		</dependency>
+	</dependencies>
+</project>
